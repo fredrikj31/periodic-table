@@ -1,7 +1,9 @@
+import { PeriodicTable } from "./components/PeriodicTable";
+
 function App() {
   return (
     <>
-      <h1 className="text-lg">Hello World</h1>
+      <PeriodicTable />
     </>
   );
 }
