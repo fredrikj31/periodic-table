@@ -1,14 +1,15 @@
-type ChemicalElementCategory =
+export type ChemicalElementCategory =
   | "alkali-metal"
   | "alkaline-earth-metal"
   | "transition-metal"
   | "post-transition-metal"
   | "metalloid"
-  | "nonmetal"
+  | "non-metal"
   | "halogen"
   | "noble-gas"
   | "lanthanide"
-  | "actinide";
+  | "actinide"
+  | "Unknown";
 
 export interface ChemicalElement {
   name: string;
@@ -17,9 +18,5 @@ export interface ChemicalElement {
   atomicMass: number;
   category: ChemicalElementCategory;
   period: number;
-  group: number;
-  electronConfiguration: string;
-  state: string;
-  yearDiscovered: number;
-  description: string;
+  group: number | null;
 }
