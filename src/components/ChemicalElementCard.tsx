@@ -3,6 +3,7 @@ import {
   ChemicalElement,
   ChemicalElementCategory,
 } from "../types/ChemicalElement";
+import { useTheme } from "../providers/theme";
 
 const CHEMICAL_ELEMENT_CATEGORY_COLORS: Record<
   ChemicalElementCategory,
@@ -32,6 +33,8 @@ export default function ChemicalElementCard({
   element,
   style,
 }: ChemicalElementCardProps) {
+  const { theme } = useTheme();
+
   return (
     <div
       className="relative aspect-square transform transition-transform hover:scale-105 cursor-pointer"
@@ -43,7 +46,7 @@ export default function ChemicalElementCard({
         className="w-full h-full rounded-md flex flex-col items-center justify-center p-1 text-center transform transition-transform hover:rotate-y-10 shadow-md"
         style={{
           backgroundColor:
-            CHEMICAL_ELEMENT_CATEGORY_COLORS[element.category].light,
+            CHEMICAL_ELEMENT_CATEGORY_COLORS[element.category][theme],
         }}
       >
         <div className="text-xs opacity-70">{element.atomicNumber}</div>
