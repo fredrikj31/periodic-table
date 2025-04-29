@@ -6,19 +6,22 @@ import {
 
 const CHEMICAL_ELEMENT_CATEGORY_COLORS: Record<
   ChemicalElementCategory,
-  string
+  {
+    light: string;
+    dark: string;
+  }
 > = {
-  "alkali-metal": "#ff6b6b",
-  "alkaline-earth-metal": "#ffa06b",
-  "transition-metal": "#ffd56b",
-  "post-transition-metal": "#c3ff6b",
-  metalloid: "#6bff9e",
-  "non-metal": "#6bfff6",
-  halogen: "#d46bff",
-  "noble-gas": "#c0c0c0",
-  lanthanide: "#ff9ec3",
-  actinide: "#e56bff",
-  Unknown: "#ffffff",
+  "alkali-metal": { light: "#ffb347", dark: "#f08c00" },
+  "alkaline-earth-metal": { light: "#a7c957", dark: "#76a338" },
+  "transition-metal": { light: "#64ccc5", dark: "#40a298" },
+  "post-transition-metal": { light: "#f28482", dark: "#d65a5a" },
+  metalloid: { light: "#beb8dc", dark: "#9a8c98" },
+  "non-metal": { light: "#8ac926", dark: "#6a994e" },
+  halogen: { light: "#ff9f1c", dark: "#e07a5f" },
+  "noble-gas": { light: "#c9ada7", dark: "#a9a9a9" },
+  lanthanide: { light: "#ffdab9", dark: "#e6b88a" },
+  actinide: { light: "#ffccb3", dark: "#e0b8a4" },
+  Unknown: { light: "#d3d3d3", dark: "#808080" },
 };
 
 interface ChemicalElementCardProps {
@@ -39,7 +42,8 @@ export default function ChemicalElementCard({
       <div
         className="w-full h-full rounded-md flex flex-col items-center justify-center p-1 text-center transform transition-transform hover:rotate-y-10 shadow-md"
         style={{
-          backgroundColor: CHEMICAL_ELEMENT_CATEGORY_COLORS[element.category],
+          backgroundColor:
+            CHEMICAL_ELEMENT_CATEGORY_COLORS[element.category].light,
         }}
       >
         <div className="text-xs opacity-70">{element.atomicNumber}</div>
