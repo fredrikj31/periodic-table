@@ -1,4 +1,4 @@
-import { useTheme } from "../providers/theme";
+import { useTheme } from "../providers/Theme";
 
 export const ThemeToggler = () => {
   const { theme, setTheme } = useTheme();

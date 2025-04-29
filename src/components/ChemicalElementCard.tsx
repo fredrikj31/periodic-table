@@ -3,7 +3,7 @@ import {
   ChemicalElement,
   ChemicalElementCategory,
 } from "../types/ChemicalElement";
-import { useTheme } from "../providers/theme";
+import { useTheme } from "../providers/Theme";
 
 const CHEMICAL_ELEMENT_CATEGORY_COLORS: Record<
   ChemicalElementCategory,

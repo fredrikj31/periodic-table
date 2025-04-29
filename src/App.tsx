@@ -1,6 +1,6 @@
 import { PeriodicTable } from "./components/PeriodicTable";
 import { ThemeToggler } from "./components/ThemeToggler";
-import { ThemeProvider } from "./providers/theme";
+import { ThemeProvider } from "./providers/Theme";
 
 function App() {
   return (
