@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import { ThemeProvider } from "./providers/Theme";
 import { HomePage } from "./pages/Home";
 import { ElementPage } from "./pages/Element/ElementPage";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const router = createBrowserRouter([
   {
@@ -13,11 +14,15 @@ const router = createBrowserRouter([
   },
 ]);
 
+const queryClient = new QueryClient();
+
 function App() {
   return (
     <div className="bg-white dark:bg-zinc-800 w-full min-h-screen">
       <ThemeProvider defaultTheme="light" storageKey="periodic-table-theme">
-        <RouterProvider router={router} />
+        <QueryClientProvider client={queryClient}>
+          <RouterProvider router={router} />
+        </QueryClientProvider>
       </ThemeProvider>
     </div>
   );
