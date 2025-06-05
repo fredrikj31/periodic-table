@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Selenium: ChemicalElement = {
+const Selenium: ChemicalElement = {
   name: "Selenium",
   symbol: "Se",
   atomicNumber: 34,
@@ -9,3 +9,4 @@ export const Selenium: ChemicalElement = {
   period: 4,
   group: 16,
 };
+export default Selenium;

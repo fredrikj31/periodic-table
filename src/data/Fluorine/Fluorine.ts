@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Fluorine: ChemicalElement = {
+const Fluorine: ChemicalElement = {
   name: "Fluorine",
   symbol: "F",
   atomicNumber: 9,
@@ -9,3 +9,4 @@ export const Fluorine: ChemicalElement = {
   period: 2,
   group: 17,
 };
+export default Fluorine;

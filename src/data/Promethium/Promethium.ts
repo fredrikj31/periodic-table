@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Promethium: ChemicalElement = {
+const Promethium: ChemicalElement = {
   name: "Promethium",
   symbol: "Pm",
   atomicNumber: 61,
@@ -9,3 +9,4 @@ export const Promethium: ChemicalElement = {
   period: 6,
   group: null,
 };
+export default Promethium;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Neon: ChemicalElement = {
+const Neon: ChemicalElement = {
   name: "Neon",
   symbol: "Ne",
   atomicNumber: 10,
@@ -9,3 +9,4 @@ export const Neon: ChemicalElement = {
   period: 2,
   group: 18,
 };
+export default Neon;

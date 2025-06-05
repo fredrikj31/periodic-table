@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Silver: ChemicalElement = {
+const Silver: ChemicalElement = {
   name: "Silver",
   symbol: "Ag",
   atomicNumber: 47,
@@ -9,3 +9,4 @@ export const Silver: ChemicalElement = {
   period: 5,
   group: 11,
 };
+export default Silver;

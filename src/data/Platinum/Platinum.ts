@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Platinum: ChemicalElement = {
+const Platinum: ChemicalElement = {
   name: "Platinum",
   symbol: "Pt",
   atomicNumber: 78,
@@ -9,3 +9,4 @@ export const Platinum: ChemicalElement = {
   period: 6,
   group: 10,
 };
+export default Platinum;

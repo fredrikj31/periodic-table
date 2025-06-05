@@ -9,3 +9,4 @@ export const Zirconium: ChemicalElement = {
   period: 5,
   group: 4,
 };
+export default Zirconium;

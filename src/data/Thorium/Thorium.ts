@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Thorium: ChemicalElement = {
+const Thorium: ChemicalElement = {
   name: "Thorium",
   symbol: "Th",
   atomicNumber: 90,
@@ -9,3 +9,4 @@ export const Thorium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Thorium;

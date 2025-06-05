@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Scandium: ChemicalElement = {
+const Scandium: ChemicalElement = {
   name: "Scandium",
   symbol: "Sc",
   atomicNumber: 21,
@@ -9,3 +9,4 @@ export const Scandium: ChemicalElement = {
   period: 4,
   group: 3,
 };
+export default Scandium;

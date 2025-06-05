@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Bismuth: ChemicalElement = {
+const Bismuth: ChemicalElement = {
   name: "Bismuth",
   symbol: "Bi",
   atomicNumber: 83,
@@ -9,3 +9,4 @@ export const Bismuth: ChemicalElement = {
   period: 6,
   group: 15,
 };
+export default Bismuth;

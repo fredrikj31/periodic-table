@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Mendelevium: ChemicalElement = {
+const Mendelevium: ChemicalElement = {
   name: "Mendelevium",
   symbol: "Md",
   atomicNumber: 101,
@@ -9,3 +9,4 @@ export const Mendelevium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Mendelevium;

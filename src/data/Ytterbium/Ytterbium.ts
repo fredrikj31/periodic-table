@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Ytterbium: ChemicalElement = {
+const Ytterbium: ChemicalElement = {
   name: "Ytterbium",
   symbol: "Yb",
   atomicNumber: 70,
@@ -9,3 +9,4 @@ export const Ytterbium: ChemicalElement = {
   period: 6,
   group: null,
 };
+export default Ytterbium;

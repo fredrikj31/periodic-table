@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Silicon: ChemicalElement = {
+const Silicon: ChemicalElement = {
   name: "Silicon",
   symbol: "Si",
   atomicNumber: 14,
@@ -9,3 +9,4 @@ export const Silicon: ChemicalElement = {
   period: 3,
   group: 14,
 };
+export default Silicon;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Lawrencium: ChemicalElement = {
+const Lawrencium: ChemicalElement = {
   name: "Lawrencium",
   symbol: "Lr",
   atomicNumber: 103,
@@ -9,3 +9,4 @@ export const Lawrencium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Lawrencium;

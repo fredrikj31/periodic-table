@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Hassium: ChemicalElement = {
+const Hassium: ChemicalElement = {
   name: "Hassium",
   symbol: "Hs",
   atomicNumber: 108,
@@ -9,3 +9,4 @@ export const Hassium: ChemicalElement = {
   period: 7,
   group: 8,
 };
+export default Hassium;

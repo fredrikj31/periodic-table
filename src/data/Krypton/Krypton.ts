@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Krypton: ChemicalElement = {
+const Krypton: ChemicalElement = {
   name: "Krypton",
   symbol: "Kr",
   atomicNumber: 36,
@@ -9,3 +9,4 @@ export const Krypton: ChemicalElement = {
   period: 4,
   group: 18,
 };
+export default Krypton;

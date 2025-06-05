@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Potassium: ChemicalElement = {
+const Potassium: ChemicalElement = {
   name: "Potassium",
   symbol: "K",
   atomicNumber: 19,
@@ -9,3 +9,4 @@ export const Potassium: ChemicalElement = {
   period: 4,
   group: 1,
 };
+export default Potassium;

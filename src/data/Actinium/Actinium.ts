@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Actinium: ChemicalElement = {
+const Actinium: ChemicalElement = {
   name: "Actinium",
   symbol: "Ac",
   atomicNumber: 89,
@@ -9,3 +9,4 @@ export const Actinium: ChemicalElement = {
   period: 7,
   group: 3,
 };
+export default Actinium;

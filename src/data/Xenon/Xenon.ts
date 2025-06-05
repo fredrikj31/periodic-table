@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Xenon: ChemicalElement = {
+const Xenon: ChemicalElement = {
   name: "Xenon",
   symbol: "Xe",
   atomicNumber: 54,
@@ -9,3 +9,4 @@ export const Xenon: ChemicalElement = {
   period: 5,
   group: 18,
 };
+export default Xenon;

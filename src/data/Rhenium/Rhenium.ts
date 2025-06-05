@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Rhenium: ChemicalElement = {
+const Rhenium: ChemicalElement = {
   name: "Rhenium",
   symbol: "Re",
   atomicNumber: 75,
@@ -9,3 +9,4 @@ export const Rhenium: ChemicalElement = {
   period: 6,
   group: 7,
 };
+export default Rhenium;

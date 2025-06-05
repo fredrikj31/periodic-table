@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Lanthanum: ChemicalElement = {
+const Lanthanum: ChemicalElement = {
   name: "Lanthanum",
   symbol: "La",
   atomicNumber: 57,
@@ -9,3 +9,4 @@ export const Lanthanum: ChemicalElement = {
   period: 6,
   group: 3,
 };
+export default Lanthanum;

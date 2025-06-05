@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Boron: ChemicalElement = {
+const Boron: ChemicalElement = {
   name: "Boron",
   symbol: "B",
   atomicNumber: 5,
@@ -9,3 +9,4 @@ export const Boron: ChemicalElement = {
   period: 2,
   group: 13,
 };
+export default Boron;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Nitrogen: ChemicalElement = {
+const Nitrogen: ChemicalElement = {
   name: "Nitrogen",
   symbol: "N",
   atomicNumber: 7,
@@ -9,3 +9,4 @@ export const Nitrogen: ChemicalElement = {
   period: 2,
   group: 15,
 };
+export default Nitrogen;

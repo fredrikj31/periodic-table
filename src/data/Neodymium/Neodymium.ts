@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Neodymium: ChemicalElement = {
+const Neodymium: ChemicalElement = {
   name: "Neodymium",
   symbol: "Nd",
   atomicNumber: 60,
@@ -9,3 +9,4 @@ export const Neodymium: ChemicalElement = {
   period: 6,
   group: null,
 };
+export default Neodymium;

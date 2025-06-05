@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Radium: ChemicalElement = {
+const Radium: ChemicalElement = {
   name: "Radium",
   symbol: "Ra",
   atomicNumber: 88,
@@ -9,3 +9,4 @@ export const Radium: ChemicalElement = {
   period: 7,
   group: 2,
 };
+export default Radium;

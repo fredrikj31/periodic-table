@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Tungsten: ChemicalElement = {
+const Tungsten: ChemicalElement = {
   name: "Tungsten",
   symbol: "W",
   atomicNumber: 74,
@@ -9,3 +9,4 @@ export const Tungsten: ChemicalElement = {
   period: 6,
   group: 6,
 };
+export default Tungsten;

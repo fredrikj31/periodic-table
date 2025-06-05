@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Iodine: ChemicalElement = {
+const Iodine: ChemicalElement = {
   name: "Iodine",
   symbol: "I",
   atomicNumber: 53,
@@ -9,3 +9,4 @@ export const Iodine: ChemicalElement = {
   period: 5,
   group: 17,
 };
+export default Iodine;

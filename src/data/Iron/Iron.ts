@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Iron: ChemicalElement = {
+const Iron: ChemicalElement = {
   name: "Iron",
   symbol: "Fe",
   atomicNumber: 26,
@@ -9,3 +9,4 @@ export const Iron: ChemicalElement = {
   period: 4,
   group: 8,
 };
+export default Iron;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Rutherfordium: ChemicalElement = {
+const Rutherfordium: ChemicalElement = {
   name: "Rutherfordium",
   symbol: "Rf",
   atomicNumber: 104,
@@ -9,3 +9,4 @@ export const Rutherfordium: ChemicalElement = {
   period: 7,
   group: 4,
 };
+export default Rutherfordium;

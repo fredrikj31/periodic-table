@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Flerovium: ChemicalElement = {
+const Flerovium: ChemicalElement = {
   name: "Flerovium",
   symbol: "Fl",
   atomicNumber: 114,
@@ -9,3 +9,4 @@ export const Flerovium: ChemicalElement = {
   period: 7,
   group: 14,
 };
+export default Flerovium;

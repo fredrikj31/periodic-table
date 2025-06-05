@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Polonium: ChemicalElement = {
+const Polonium: ChemicalElement = {
   name: "Polonium",
   symbol: "Po",
   atomicNumber: 84,
@@ -9,3 +9,4 @@ export const Polonium: ChemicalElement = {
   period: 6,
   group: 16,
 };
+export default Polonium;

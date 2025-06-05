@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Lithium: ChemicalElement = {
+const Lithium: ChemicalElement = {
   name: "Lithium",
   symbol: "Li",
   atomicNumber: 3,
@@ -9,3 +9,4 @@ export const Lithium: ChemicalElement = {
   period: 2,
   group: 1,
 };
+export default Lithium;

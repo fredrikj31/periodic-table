@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Bohrium: ChemicalElement = {
+const Bohrium: ChemicalElement = {
   name: "Bohrium",
   symbol: "Bh",
   atomicNumber: 107,
@@ -9,3 +9,4 @@ export const Bohrium: ChemicalElement = {
   period: 7,
   group: 7,
 };
+export default Bohrium;

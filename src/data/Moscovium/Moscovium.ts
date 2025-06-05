@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Moscovium: ChemicalElement = {
+const Moscovium: ChemicalElement = {
   name: "Moscovium",
   symbol: "Mc",
   atomicNumber: 115,
@@ -9,3 +9,4 @@ export const Moscovium: ChemicalElement = {
   period: 7,
   group: 15,
 };
+export default Moscovium;

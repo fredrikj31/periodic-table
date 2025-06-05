@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Zinc: ChemicalElement = {
+const Zinc: ChemicalElement = {
   name: "Zinc",
   symbol: "Zn",
   atomicNumber: 30,
@@ -9,3 +9,4 @@ export const Zinc: ChemicalElement = {
   period: 4,
   group: 12,
 };
+export default Zinc;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Hydrogen: ChemicalElement = {
+const Hydrogen: ChemicalElement = {
   name: "Hydrogen",
   symbol: "H",
   atomicNumber: 1,
@@ -9,3 +9,4 @@ export const Hydrogen: ChemicalElement = {
   period: 1,
   group: 1,
 };
+export default Hydrogen;

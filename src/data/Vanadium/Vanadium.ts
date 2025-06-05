@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Vanadium: ChemicalElement = {
+const Vanadium: ChemicalElement = {
   name: "Vanadium",
   symbol: "V",
   atomicNumber: 23,
@@ -9,3 +9,4 @@ export const Vanadium: ChemicalElement = {
   period: 4,
   group: 5,
 };
+export default Vanadium;

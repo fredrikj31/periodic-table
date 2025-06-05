@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Holmium: ChemicalElement = {
+const Holmium: ChemicalElement = {
   name: "Holmium",
   symbol: "Ho",
   atomicNumber: 67,
@@ -9,3 +9,4 @@ export const Holmium: ChemicalElement = {
   period: 6,
   group: null,
 };
+export default Holmium;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Chlorine: ChemicalElement = {
+const Chlorine: ChemicalElement = {
   name: "Chlorine",
   symbol: "Cl",
   atomicNumber: 17,
@@ -9,3 +9,4 @@ export const Chlorine: ChemicalElement = {
   period: 3,
   group: 17,
 };
+export default Chlorine;

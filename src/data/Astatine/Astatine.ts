@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Astatine: ChemicalElement = {
+const Astatine: ChemicalElement = {
   name: "Astatine",
   symbol: "At",
   atomicNumber: 85,
@@ -9,3 +9,4 @@ export const Astatine: ChemicalElement = {
   period: 6,
   group: 17,
 };
+export default Astatine;

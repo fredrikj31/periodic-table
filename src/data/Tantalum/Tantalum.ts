@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Tantalum: ChemicalElement = {
+const Tantalum: ChemicalElement = {
   name: "Tantalum",
   symbol: "Ta",
   atomicNumber: 73,
@@ -9,3 +9,4 @@ export const Tantalum: ChemicalElement = {
   period: 6,
   group: 5,
 };
+export default Tantalum;

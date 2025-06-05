@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Neptunium: ChemicalElement = {
+const Neptunium: ChemicalElement = {
   name: "Neptunium",
   symbol: "Np",
   atomicNumber: 93,
@@ -9,3 +9,4 @@ export const Neptunium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Neptunium;

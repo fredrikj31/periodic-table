@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Indium: ChemicalElement = {
+const Indium: ChemicalElement = {
   name: "Indium",
   symbol: "In",
   atomicNumber: 49,
@@ -9,3 +9,4 @@ export const Indium: ChemicalElement = {
   period: 5,
   group: 13,
 };
+export default Indium;

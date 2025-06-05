@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Lead: ChemicalElement = {
+const Lead: ChemicalElement = {
   name: "Lead",
   symbol: "Pb",
   atomicNumber: 82,
@@ -9,3 +9,4 @@ export const Lead: ChemicalElement = {
   period: 6,
   group: 14,
 };
+export default Lead;
