@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Barium: ChemicalElement = {
+const Barium: ChemicalElement = {
   name: "Barium",
   symbol: "Ba",
   atomicNumber: 56,
@@ -9,3 +9,4 @@ export const Barium: ChemicalElement = {
   period: 6,
   group: 2,
 };
+export default Barium;

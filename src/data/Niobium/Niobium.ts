@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Niobium: ChemicalElement = {
+const Niobium: ChemicalElement = {
   name: "Niobium",
   symbol: "Nb",
   atomicNumber: 41,
@@ -9,3 +9,4 @@ export const Niobium: ChemicalElement = {
   period: 5,
   group: 5,
 };
+export default Niobium;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Erbium: ChemicalElement = {
+const Erbium: ChemicalElement = {
   name: "Erbium",
   symbol: "Er",
   atomicNumber: 68,
@@ -9,3 +9,4 @@ export const Erbium: ChemicalElement = {
   period: 6,
   group: null,
 };
+export default Erbium;

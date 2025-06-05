@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Iridium: ChemicalElement = {
+const Iridium: ChemicalElement = {
   name: "Iridium",
   symbol: "Ir",
   atomicNumber: 77,
@@ -9,3 +9,4 @@ export const Iridium: ChemicalElement = {
   period: 6,
   group: 9,
 };
+export default Iridium;

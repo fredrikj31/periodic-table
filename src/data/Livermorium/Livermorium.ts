@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Livermorium: ChemicalElement = {
+const Livermorium: ChemicalElement = {
   name: "Livermorium",
   symbol: "Lv",
   atomicNumber: 116,
@@ -9,3 +9,4 @@ export const Livermorium: ChemicalElement = {
   period: 7,
   group: 16,
 };
+export default Livermorium;

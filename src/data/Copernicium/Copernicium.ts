@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Copernicium: ChemicalElement = {
+const Copernicium: ChemicalElement = {
   name: "Copernicium",
   symbol: "Cn",
   atomicNumber: 112,
@@ -9,3 +9,4 @@ export const Copernicium: ChemicalElement = {
   period: 7,
   group: 12,
 };
+export default Copernicium;

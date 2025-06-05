@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Americium: ChemicalElement = {
+const Americium: ChemicalElement = {
   name: "Americium",
   symbol: "Am",
   atomicNumber: 95,
@@ -9,3 +9,4 @@ export const Americium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Americium;

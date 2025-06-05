@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Hafnium: ChemicalElement = {
+const Hafnium: ChemicalElement = {
   name: "Hafnium",
   symbol: "Hf",
   atomicNumber: 72,
@@ -9,3 +9,4 @@ export const Hafnium: ChemicalElement = {
   period: 6,
   group: 4,
 };
+export default Hafnium;

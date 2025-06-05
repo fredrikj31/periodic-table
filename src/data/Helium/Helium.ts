@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Helium: ChemicalElement = {
+const Helium: ChemicalElement = {
   name: "Helium",
   symbol: "He",
   atomicNumber: 2,
@@ -9,3 +9,4 @@ export const Helium: ChemicalElement = {
   period: 1,
   group: 18,
 };
+export default Helium;

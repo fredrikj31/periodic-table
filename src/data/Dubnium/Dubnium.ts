@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Dubnium: ChemicalElement = {
+const Dubnium: ChemicalElement = {
   name: "Dubnium",
   symbol: "Db",
   atomicNumber: 105,
@@ -9,3 +9,4 @@ export const Dubnium: ChemicalElement = {
   period: 7,
   group: 5,
 };
+export default Dubnium;

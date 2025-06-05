@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Tellurium: ChemicalElement = {
+const Tellurium: ChemicalElement = {
   name: "Tellurium",
   symbol: "Te",
   atomicNumber: 52,
@@ -9,3 +9,4 @@ export const Tellurium: ChemicalElement = {
   period: 5,
   group: 16,
 };
+export default Tellurium;

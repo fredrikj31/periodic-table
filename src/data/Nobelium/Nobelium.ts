@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Nobelium: ChemicalElement = {
+const Nobelium: ChemicalElement = {
   name: "Nobelium",
   symbol: "No",
   atomicNumber: 102,
@@ -9,3 +9,4 @@ export const Nobelium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Nobelium;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Gadolinium: ChemicalElement = {
+const Gadolinium: ChemicalElement = {
   name: "Gadolinium",
   symbol: "Gd",
   atomicNumber: 64,
@@ -9,3 +9,4 @@ export const Gadolinium: ChemicalElement = {
   period: 6,
   group: null,
 };
+export default Gadolinium;

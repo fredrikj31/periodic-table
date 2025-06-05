@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Darmstadtium: ChemicalElement = {
+const Darmstadtium: ChemicalElement = {
   name: "Darmstadtium",
   symbol: "Ds",
   atomicNumber: 110,
@@ -9,3 +9,4 @@ export const Darmstadtium: ChemicalElement = {
   period: 7,
   group: 10,
 };
+export default Darmstadtium;

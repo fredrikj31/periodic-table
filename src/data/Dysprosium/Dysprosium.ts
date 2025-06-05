@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Dysprosium: ChemicalElement = {
+const Dysprosium: ChemicalElement = {
   name: "Dysprosium",
   symbol: "Dy",
   atomicNumber: 66,
@@ -9,3 +9,4 @@ export const Dysprosium: ChemicalElement = {
   period: 6,
   group: null,
 };
+export default Dysprosium;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Sodium: ChemicalElement = {
+const Sodium: ChemicalElement = {
   name: "Sodium",
   symbol: "Na",
   atomicNumber: 11,
@@ -9,3 +9,4 @@ export const Sodium: ChemicalElement = {
   period: 3,
   group: 1,
 };
+export default Sodium;

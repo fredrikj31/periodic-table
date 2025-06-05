@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Einsteinium: ChemicalElement = {
+const Einsteinium: ChemicalElement = {
   name: "Einsteinium",
   symbol: "Es",
   atomicNumber: 99,
@@ -9,3 +9,4 @@ export const Einsteinium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Einsteinium;

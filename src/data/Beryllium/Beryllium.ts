@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Beryllium: ChemicalElement = {
+const Beryllium: ChemicalElement = {
   name: "Beryllium",
   symbol: "Be",
   atomicNumber: 4,
@@ -9,3 +9,4 @@ export const Beryllium: ChemicalElement = {
   period: 2,
   group: 2,
 };
+export default Beryllium;

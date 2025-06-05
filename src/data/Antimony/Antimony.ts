@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Antimony: ChemicalElement = {
+const Antimony: ChemicalElement = {
   name: "Antimony",
   symbol: "Sb",
   atomicNumber: 51,
@@ -9,3 +9,4 @@ export const Antimony: ChemicalElement = {
   period: 5,
   group: 15,
 };
+export default Antimony;

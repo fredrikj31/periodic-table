@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Molybdenum: ChemicalElement = {
+const Molybdenum: ChemicalElement = {
   name: "Molybdenum",
   symbol: "Mo",
   atomicNumber: 42,
@@ -9,3 +9,4 @@ export const Molybdenum: ChemicalElement = {
   period: 5,
   group: 6,
 };
+export default Molybdenum;

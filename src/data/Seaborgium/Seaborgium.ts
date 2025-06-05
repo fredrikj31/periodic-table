@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Seaborgium: ChemicalElement = {
+const Seaborgium: ChemicalElement = {
   name: "Seaborgium",
   symbol: "Sg",
   atomicNumber: 106,
@@ -9,3 +9,4 @@ export const Seaborgium: ChemicalElement = {
   period: 7,
   group: 6,
 };
+export default Seaborgium;

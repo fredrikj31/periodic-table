@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Curium: ChemicalElement = {
+const Curium: ChemicalElement = {
   name: "Curium",
   symbol: "Cm",
   atomicNumber: 96,
@@ -9,3 +9,4 @@ export const Curium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Curium;

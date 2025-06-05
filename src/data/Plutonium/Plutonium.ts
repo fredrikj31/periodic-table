@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Plutonium: ChemicalElement = {
+const Plutonium: ChemicalElement = {
   name: "Plutonium",
   symbol: "Pu",
   atomicNumber: 94,
@@ -9,3 +9,4 @@ export const Plutonium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Plutonium;

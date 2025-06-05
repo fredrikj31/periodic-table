@@ -4,6 +4,7 @@ import {
   ChemicalElementCategory,
 } from "../types/ChemicalElement";
 import { useTheme } from "../providers/Theme";
+import { Link } from "react-router";
 
 const CHEMICAL_ELEMENT_CATEGORY_COLORS: Record<
   ChemicalElementCategory,
@@ -36,7 +37,8 @@ export default function ChemicalElementCard({
   const { theme } = useTheme();
 
   return (
-    <div
+    <Link
+      to={`/${element.name}`}
       className="relative aspect-square transform transition-transform hover:scale-105 cursor-pointer"
       style={{
         ...style,
@@ -53,6 +55,6 @@ export default function ChemicalElementCard({
         <div className="text-xl font-bold">{element.symbol}</div>
         <div className="text-xs truncate max-w-full">{element.name}</div>
       </div>
-    </div>
+    </Link>
   );
 }

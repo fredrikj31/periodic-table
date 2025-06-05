@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Samarium: ChemicalElement = {
+const Samarium: ChemicalElement = {
   name: "Samarium",
   symbol: "Sm",
   atomicNumber: 62,
@@ -9,3 +9,4 @@ export const Samarium: ChemicalElement = {
   period: 6,
   group: null,
 };
+export default Samarium;

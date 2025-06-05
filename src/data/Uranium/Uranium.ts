@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Uranium: ChemicalElement = {
+const Uranium: ChemicalElement = {
   name: "Uranium",
   symbol: "U",
   atomicNumber: 92,
@@ -9,3 +9,4 @@ export const Uranium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Uranium;

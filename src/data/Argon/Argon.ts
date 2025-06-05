@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Argon: ChemicalElement = {
+const Argon: ChemicalElement = {
   name: "Argon",
   symbol: "Ar",
   atomicNumber: 18,
@@ -9,3 +9,4 @@ export const Argon: ChemicalElement = {
   period: 3,
   group: 18,
 };
+export default Argon;

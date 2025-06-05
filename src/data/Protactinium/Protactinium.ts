@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Protactinium: ChemicalElement = {
+const Protactinium: ChemicalElement = {
   name: "Protactinium",
   symbol: "Pa",
   atomicNumber: 91,
@@ -9,3 +9,4 @@ export const Protactinium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Protactinium;

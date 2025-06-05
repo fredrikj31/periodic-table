@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Tennessine: ChemicalElement = {
+const Tennessine: ChemicalElement = {
   name: "Tennessine",
   symbol: "Ts",
   atomicNumber: 117,
@@ -9,3 +9,4 @@ export const Tennessine: ChemicalElement = {
   period: 7,
   group: 17,
 };
+export default Tennessine;

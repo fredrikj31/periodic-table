@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Fermium: ChemicalElement = {
+const Fermium: ChemicalElement = {
   name: "Fermium",
   symbol: "Fm",
   atomicNumber: 100,
@@ -9,3 +9,4 @@ export const Fermium: ChemicalElement = {
   period: 7,
   group: null,
 };
+export default Fermium;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Tin: ChemicalElement = {
+const Tin: ChemicalElement = {
   name: "Tin",
   symbol: "Sn",
   atomicNumber: 50,
@@ -9,3 +9,4 @@ export const Tin: ChemicalElement = {
   period: 5,
   group: 14,
 };
+export default Tin;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Strontium: ChemicalElement = {
+const Strontium: ChemicalElement = {
   name: "Strontium",
   symbol: "Sr",
   atomicNumber: 38,
@@ -9,3 +9,4 @@ export const Strontium: ChemicalElement = {
   period: 5,
   group: 2,
 };
+export default Strontium;

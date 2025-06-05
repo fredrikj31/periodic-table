@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Oganesson: ChemicalElement = {
+const Oganesson: ChemicalElement = {
   name: "Oganesson",
   symbol: "Og",
   atomicNumber: 118,
@@ -9,3 +9,4 @@ export const Oganesson: ChemicalElement = {
   period: 7,
   group: 18,
 };
+export default Oganesson;

@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Cadmium: ChemicalElement = {
+const Cadmium: ChemicalElement = {
   name: "Cadmium",
   symbol: "Cd",
   atomicNumber: 48,
@@ -9,3 +9,4 @@ export const Cadmium: ChemicalElement = {
   period: 5,
   group: 12,
 };
+export default Cadmium;

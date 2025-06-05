@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Magnesium: ChemicalElement = {
+const Magnesium: ChemicalElement = {
   name: "Magnesium",
   symbol: "Mg",
   atomicNumber: 12,
@@ -9,3 +9,4 @@ export const Magnesium: ChemicalElement = {
   period: 3,
   group: 2,
 };
+export default Magnesium;

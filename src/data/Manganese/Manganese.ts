@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Manganese: ChemicalElement = {
+const Manganese: ChemicalElement = {
   name: "Manganese",
   symbol: "Mn",
   atomicNumber: 25,
@@ -9,3 +9,4 @@ export const Manganese: ChemicalElement = {
   period: 4,
   group: 7,
 };
+export default Manganese;

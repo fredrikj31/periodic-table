@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Lutetium: ChemicalElement = {
+const Lutetium: ChemicalElement = {
   name: "Lutetium",
   symbol: "Lu",
   atomicNumber: 71,
@@ -9,3 +9,4 @@ export const Lutetium: ChemicalElement = {
   period: 6,
   group: 3,
 };
+export default Lutetium;

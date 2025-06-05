@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Roentgenium: ChemicalElement = {
+const Roentgenium: ChemicalElement = {
   name: "Roentgenium",
   symbol: "Rg",
   atomicNumber: 111,
@@ -9,3 +9,4 @@ export const Roentgenium: ChemicalElement = {
   period: 7,
   group: 11,
 };
+export default Roentgenium;

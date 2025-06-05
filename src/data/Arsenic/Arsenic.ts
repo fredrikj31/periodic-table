@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Arsenic: ChemicalElement = {
+const Arsenic: ChemicalElement = {
   name: "Arsenic",
   symbol: "As",
   atomicNumber: 33,
@@ -9,3 +9,4 @@ export const Arsenic: ChemicalElement = {
   period: 4,
   group: 15,
 };
+export default Arsenic;

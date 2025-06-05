@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Nihonium: ChemicalElement = {
+const Nihonium: ChemicalElement = {
   name: "Nihonium",
   symbol: "Nh",
   atomicNumber: 113,
@@ -9,3 +9,4 @@ export const Nihonium: ChemicalElement = {
   period: 7,
   group: 13,
 };
+export default Nihonium;

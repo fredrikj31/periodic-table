@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Aluminum: ChemicalElement = {
+const Aluminum: ChemicalElement = {
   name: "Aluminum",
   symbol: "Al",
   atomicNumber: 13,
@@ -9,3 +9,4 @@ export const Aluminum: ChemicalElement = {
   period: 3,
   group: 13,
 };
+export default Aluminum;

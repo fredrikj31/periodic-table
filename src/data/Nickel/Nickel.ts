@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Nickel: ChemicalElement = {
+const Nickel: ChemicalElement = {
   name: "Nickel",
   symbol: "Ni",
   atomicNumber: 28,
@@ -9,3 +9,4 @@ export const Nickel: ChemicalElement = {
   period: 4,
   group: 10,
 };
+export default Nickel;

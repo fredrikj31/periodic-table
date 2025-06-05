@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Osmium: ChemicalElement = {
+const Osmium: ChemicalElement = {
   name: "Osmium",
   symbol: "Os",
   atomicNumber: 76,
@@ -9,3 +9,4 @@ export const Osmium: ChemicalElement = {
   period: 6,
   group: 8,
 };
+export default Osmium;

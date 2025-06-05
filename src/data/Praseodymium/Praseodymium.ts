@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Praseodymium: ChemicalElement = {
+const Praseodymium: ChemicalElement = {
   name: "Praseodymium",
   symbol: "Pr",
   atomicNumber: 59,
@@ -9,3 +9,4 @@ export const Praseodymium: ChemicalElement = {
   period: 6,
   group: null,
 };
+export default Praseodymium;

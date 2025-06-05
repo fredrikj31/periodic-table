@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Phosphorus: ChemicalElement = {
+const Phosphorus: ChemicalElement = {
   name: "Phosphorus",
   symbol: "P",
   atomicNumber: 15,
@@ -9,3 +9,4 @@ export const Phosphorus: ChemicalElement = {
   period: 3,
   group: 15,
 };
+export default Phosphorus;

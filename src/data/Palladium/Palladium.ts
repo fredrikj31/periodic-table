@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Palladium: ChemicalElement = {
+const Palladium: ChemicalElement = {
   name: "Palladium",
   symbol: "Pd",
   atomicNumber: 46,
@@ -9,3 +9,4 @@ export const Palladium: ChemicalElement = {
   period: 5,
   group: 10,
 };
+export default Palladium;

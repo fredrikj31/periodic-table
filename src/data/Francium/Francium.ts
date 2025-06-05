@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Francium: ChemicalElement = {
+const Francium: ChemicalElement = {
   name: "Francium",
   symbol: "Fr",
   atomicNumber: 87,
@@ -9,3 +9,4 @@ export const Francium: ChemicalElement = {
   period: 7,
   group: 1,
 };
+export default Francium;

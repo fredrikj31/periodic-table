@@ -1,6 +1,6 @@
 import { ChemicalElement } from "../../types/ChemicalElement";
 
-export const Technetium: ChemicalElement = {
+const Technetium: ChemicalElement = {
   name: "Technetium",
   symbol: "Tc",
   atomicNumber: 43,
@@ -9,3 +9,4 @@ export const Technetium: ChemicalElement = {
   period: 5,
   group: 7,
 };
+export default Technetium;
