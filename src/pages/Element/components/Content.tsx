@@ -1,7 +1,33 @@
-export const Content = ({ content }: { content: string }) => {
+import { Button } from "@shadcn-ui/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@shadcn-ui/components/ui/card";
+import { ChemicalElement } from "src/types/ChemicalElement";
+
+export const Content = ({
+  element,
+  content,
+}: {
+  element: ChemicalElement;
+  content: string;
+}) => {
   return (
-    <div className="prose prose-slate max-w-none">
-      <div className="text-gray-700 leading-relaxed">{content}</div>
-    </div>
+    <Card className="h-full">
+      <CardHeader>
+        <CardTitle>{element.name}</CardTitle>
+        <CardDescription>Card Description</CardDescription>
+      </CardHeader>
+      <CardContent className="leading-relaxed">{content}</CardContent>
+      <CardFooter className="mt-auto">
+        <Button className="cursor-pointer" variant={"secondary"}>
+          Share
+        </Button>
+      </CardFooter>
+    </Card>
   );
 };
