@@ -7,6 +7,7 @@ export const PeriodicTable = () => {
       {/* Group Numbers */}
       {new Array(18).fill(null).map((_, index) => (
         <div
+          key={`group-number-${index}`}
           className="flex justify-center items-center text-xl dark:text-white text-black"
           style={{
             gridRow: 1,
@@ -19,6 +20,7 @@ export const PeriodicTable = () => {
       {/* Period Numbers */}
       {new Array(7).fill(null).map((_, index) => (
         <div
+          key={`period-number-${index}`}
           className="flex justify-center items-center text-xl dark:text-white text-black"
           style={{
             gridRow: index + 2,
