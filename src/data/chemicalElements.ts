@@ -1,5 +1,5 @@
 import { ChemicalElement } from "../types/ChemicalElement";
-import Hydrogen from "./Hydrogen/Hydrongen";
+import Hydrogen from "./Hydrogen/Hydrogen";
 import Beryllium from "./Beryllium/Beryllium";
 import Helium from "./Helium/Helium";
 import Lithium from "./Lithium/Lithium";
