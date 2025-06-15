@@ -7,7 +7,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@shadcn-ui/components/ui/card";
+import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { ChemicalElement } from "src/types/ChemicalElement";
+import { MarkdownComponents } from "../helpers/MarkdownComponents";
 
 export const Content = ({
   element,
@@ -22,7 +25,11 @@ export const Content = ({
         <CardTitle>{element.name}</CardTitle>
         <CardDescription>Card Description</CardDescription>
       </CardHeader>
-      <CardContent className="leading-relaxed">{content}</CardContent>
+      <CardContent className="leading-relaxed">
+        <Markdown remarkPlugins={[remarkGfm]} components={MarkdownComponents}>
+          {content}
+        </Markdown>
+      </CardContent>
       <CardFooter className="mt-auto">
         <Button className="cursor-pointer" variant={"secondary"}>
           Share
