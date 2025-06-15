@@ -1,4 +1,3 @@
-import { Button } from "@shadcn-ui/components/ui/button";
 import {
   Card,
   CardContent,
@@ -11,6 +10,7 @@ import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { ChemicalElement } from "src/types/ChemicalElement";
 import { MarkdownComponents } from "../helpers/MarkdownComponents";
+import { ShareButton } from "../../../components/ShareButton";
 
 export const Content = ({
   element,
@@ -31,9 +31,12 @@ export const Content = ({
         </Markdown>
       </CardContent>
       <CardFooter className="mt-auto">
-        <Button className="cursor-pointer" variant={"secondary"}>
-          Share
-        </Button>
+        <ShareButton
+          variant="secondary"
+          text="Share"
+          copiedText="Copied!"
+          link={window.document.location.href}
+        />
       </CardFooter>
     </Card>
   );
